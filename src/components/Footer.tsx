@@ -6,7 +6,10 @@ const Footer = () => {
       <div className="max-w-5xl mx-auto text-center">
         <p className="text-muted-foreground text-sm">
           {name ? (
-            <>Hey <span className="text-foreground font-medium">{name}!</span>, thanks for visiting</>
+            <>
+              Hey <span className="text-foreground font-medium">{name}!</span>,
+              thanks for visiting
+            </>
           ) : (
             <>Thanks for visiting 👋</>
           )}
