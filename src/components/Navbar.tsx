@@ -53,7 +53,7 @@ const Navbar = () => {
           ))}
           <li>
             <a
-              href="/src/assets/Sam_Dirsipam.pdf"
+              href="public/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-5 py-2.5 bg-accent text-accent-foreground text-sm font-medium rounded-full hover:shadow-glow-sm transition-all"
