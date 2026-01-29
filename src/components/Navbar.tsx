@@ -96,7 +96,7 @@ const Navbar = () => {
               ))}
               <li className="pt-2">
                 <a
-                  href="/resume.pdf"
+                  href="public/resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block px-6 py-3 bg-accent text-accent-foreground font-medium rounded-full"
