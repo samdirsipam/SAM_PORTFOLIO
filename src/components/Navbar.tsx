@@ -53,7 +53,7 @@ const Navbar = () => {
           ))}
           <li>
             <a
-              href="public/resume.pdf"
+              href="/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-5 py-2.5 bg-accent text-accent-foreground text-sm font-medium rounded-full hover:shadow-glow-sm transition-all"
@@ -96,7 +96,7 @@ const Navbar = () => {
               ))}
               <li className="pt-2">
                 <a
-                  href="public/resume.pdf"
+                  href="/resume.pdf"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="inline-block px-6 py-3 bg-accent text-accent-foreground font-medium rounded-full"
