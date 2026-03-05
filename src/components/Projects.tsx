@@ -6,9 +6,20 @@ import {
   Brain,
   Briefcase,
   FileSearch,
+  BookOpen,
 } from "lucide-react";
 
 const projects = [
+  {
+    title: "SELAH - Bilingual Bible Verse Generator",
+    description:
+      "A ministry-focused web tool that generates beautiful bilingual (English–Telugu) Bible verse images instantly. Designed for pastors and churches to create and share Scripture visuals for social media without design skills.",
+    tech: ["Next.js", "TypeScript", "Tailwind CSS", "HTML Canvas"],
+    github: "https://github.com/samdirsipam/SELAH",
+    live: "https://selah7.vercel.app",
+    icon: BookOpen,
+    status: "completed",
+  },
   {
     title: "Paddy Disease Detection",
     description:
@@ -34,7 +45,7 @@ const projects = [
     description:
       "A full-stack job portal for recruiters and job seekers featuring authentication, job listings, and application tracking. Currently under active development.",
     tech: ["React", "Node.js", "MongoDB"],
-    github: "",
+    github: "https://github.com/samdirsipam/JOB_PORTAL_APPLICATION",
     live: "",
     icon: Briefcase,
     status: "in-progress",
@@ -169,12 +180,6 @@ const Projects = () => {
                     </span>
                   ))}
                 </div>
-
-                {project.status === "in-progress" && (
-                  <p className="mt-4 text-sm text-muted-foreground">
-                    Live demo coming soon.
-                  </p>
-                )}
               </div>
             </motion.article>
           ))}
