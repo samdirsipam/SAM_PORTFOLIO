@@ -7,9 +7,31 @@ import {
   Briefcase,
   FileSearch,
   BookOpen,
+  Users2Icon,
+  Code2,
 } from "lucide-react";
 
 const projects = [
+  {
+    title: "SeedSpace - A Media Collaboration Platform",
+    description:
+      "A church youth media platform that helps members submit creative content ideas, vote on suggestions, and collaborate on media production. Features admin approvals, content categorization, and a production queue to streamline ministry social media content creation.",
+    tech: ["Next.js", "TypeScript", "Prisma", "PostgreSQL", "Tailwind CSS"],
+    github: "https://github.com/samdirsipam/SeedSpace",
+    live: "https://seedspace.vercel.app",
+    icon: Users2Icon,
+    status: "completed",
+  },
+  {
+  title: "Kairox Digital - Platform for Digital Solutions",
+  description:
+    "A digital solutions brand focused on building modern, high-performing websites that help businesses strengthen their online presence, establish credibility, and attract customers through clean design and functional web experiences.",
+  tech: ["Next.js", "TypeScript", "Tailwind CSS"],
+  github: "https://github.com/KairoxDigital/KairoxDigital",
+  live: "https://kairoxdigital.vercel.app",
+  icon: Code2,
+  status: "completed",
+},
   {
     title: "SELAH - Bilingual Bible Verse Generator",
     description:
@@ -48,7 +70,7 @@ const projects = [
     github: "https://github.com/samdirsipam/JOB_PORTAL_APPLICATION",
     live: "",
     icon: Briefcase,
-    status: "in-progress",
+    status: "completed`",
   },
   {
     title: "AI Resume Analyzer & Job Matcher",
