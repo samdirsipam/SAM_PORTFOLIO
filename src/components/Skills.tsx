@@ -1,20 +1,48 @@
 import { motion } from "framer-motion";
 
 const skills = [
+  // Programming Languages
   { name: "C", category: "lang" },
   { name: "C++", category: "lang" },
   { name: "Java", category: "lang" },
   { name: "Python", category: "lang" },
+  { name: "SQL", category: "lang" },
+
+  // Web Development
   { name: "HTML", category: "web" },
   { name: "CSS", category: "web" },
   { name: "JavaScript", category: "web" },
   { name: "React", category: "web" },
+  { name: "REST APIs", category: "web" },
+
+  // Data Analytics
+  { name: "Excel", category: "analytics" },
+  { name: "Power BI", category: "analytics" },
+  { name: "Pandas", category: "analytics" },
+  { name: "NumPy", category: "analytics" },
+  { name: "Data Visualization", category: "analytics" },
+  { name: "Data Cleaning", category: "analytics" },
+
+  // AI & Machine Learning
   { name: "Machine Learning", category: "ml" },
   { name: "OpenCV", category: "ml" },
+  { name: "Scikit-learn", category: "ml" },
+  { name: "TensorFlow", category: "ml" },
+  { name: "Keras", category: "ml" },
+
+  // Databases & Tools
   { name: "MongoDB", category: "tool" },
   { name: "MySQL", category: "tool" },
+  { name: "PostgreSQL", category: "tool" },
   { name: "Git", category: "tool" },
-  { name: "DSA", category: "concept" },
+  { name: "GitHub", category: "tool" },
+  { name: "Postman", category: "tool" },
+
+  // Core Concepts
+  { name: "Data Structures & Algorithms", category: "concept" },
+  { name: "OOP", category: "concept" },
+  { name: "DBMS", category: "concept" },
+  { name: "Data Preprocessing", category: "concept" },
 ];
 
 const Skills = () => {

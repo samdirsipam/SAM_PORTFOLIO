@@ -1,6 +1,6 @@
 import { Card } from "@/components/ui/card";
 import aboutImage from "@/assets/me.png";
-import { Code2, Brain, Rocket } from "lucide-react";
+import { Code2, Brain, Rocket, BarChart, BarChart3 } from "lucide-react";
 import { motion } from "framer-motion";
 
 const highlights = [
@@ -8,6 +8,11 @@ const highlights = [
     icon: Code2,
     title: "Full-Stack Development",
     description: "Building scalable end-to-end web applications",
+  },
+  {
+    icon: BarChart3,
+    title: "Data Analysis & Visualization",
+    description: "Transforming raw data into actionable insights through SQL, Python, Excel, and Power BI",
   },
   {
     icon: Brain,
